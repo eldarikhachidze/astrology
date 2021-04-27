@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;;
+}
+*{
+    box-sizing: inherit;
+}
+.content-area{
+    width: 1150px;
+    margin: 0 auto;
+}
+/*container*/
+.container{
+    width: 100%;
+    height: auto;
+}
+/*header*/
+.container header{
+    width: 100%;
+    height: 68px;
+}
+header .header-content{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+header .header-content .header-left{
+    display: flex;
+    justify-content: left;
+}
+header .header-content .header-left{
+    color: white;
+    font-family: 'roboto', cursive;
+}
+header .header-content .header-left .content-name{
+    margin: 0 30px;
+}
+header .header-content .sing-up{
+    color: white;
+    font-family: 'roboto', cursive;
+}
+/*footer*/
+.container footer{
+    width: 100%;
+    height: 208px;
+    background-color: #3d3d3d;
+}
+/*content*/
+.container .container-content{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+}
+.head-slogan{
+    color: white;
+    text-align: center;
+    font-family: 'bebas neue', cursive;
+    font-size: 24px;
+    margin-top: 100px;
+}
+.horoscop .choose{
+    color: white;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    margin-top: 60px;
+}
+.horoscop .horoscop-type{
+    width: 90px;
+    height: auto;
+    color: white;
+}
+.horoscop-type .horoscop-line{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+.horoscop-type .type{
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.horoscop-type .icon{
+    width: 181px;
+    height: auto;
+}
+.news{
+    width: auto;
+    height: auto;
+    margin: 100px auto;
+    font-size: 24px;
+}
+.news-month h4{
+    text-align: center;
+    color: white;
+}
+.news-month .news-horoscop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.news-month .news-horoscop-type{
+    width: calc(25% - 10px);
+    height: 150px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.news-year{
+    text-align: center;
+    color: white;
+}
+.news-year .news-horoscop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.news-year .news-horoscop-type{
+    width: calc(25% - 10px);
+    height: 150px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
