@@ -41,6 +41,18 @@ header .header-content .sing-up{
     color: white;
     font-family: 'roboto', cursive;
 }
+#nav h2 {
+    position: relative;
+    animation-name: nav;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes nav {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 /*footer*/
 .container footer{
     width: 100%;
@@ -60,19 +72,30 @@ header .header-content .sing-up{
     font-size: 24px;
     margin-top: 100px;
 }
-.horoscop .choose{
+#head-slogan h1 {
+    position: relative;
+    animation-name: head-slogan;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes head-slogan{
+    0% {top: -300px}
+    100% {top: 0}
+}
+.horoscop .choice{
     color: white;
     text-align: center;
     font-family: 'roboto', sans-serif;
     margin-top: 60px;
 }
 .horoscop .horoscop-type{
-    width: 90px;
+    width: auto;
     height: auto;
     color: white;
 }
 .horoscop-type .horoscop-line{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin: 0 auto;
 }
